@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  int a,b;
+  cout<<"Enter two numbers: ";
+  cin>>a>>b;
+  if(a<b) cout<<"first number is smaller than the second";
+  if(a==b)  cout<<"Both the numbers are equal";
+  if(b<a)   cout<<"Second number is smaller than the first";
+  return 0;
+}
